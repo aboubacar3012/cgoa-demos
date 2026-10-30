@@ -7,7 +7,7 @@ metadata:
   name: secret-app
   namespace: secret-app
 spec:
-  replicas: 1
+  replicas: 10
   selector:
     matchLabels:
       app: secret-app
